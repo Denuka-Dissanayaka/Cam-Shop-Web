@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.logo {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: #f54538;
+    border-radius: 50%;
+}
+
+.logo::after {
+    content: "L";
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    font-size: 4rem;
+    left: 1.5rem;
+}
+
+.nav-container {
+    background-color: rgb(17, 17, 17);
+    
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 0.5rem;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+} 
+
+.menu ul li {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #f54538;
+}
+
+.show-case {
+    background: radial-gradient(#525252, #131313);
+    height: 100vh;
+    margin-top: -70px;
+    padding-top: 70px;
+    
+}
+
+.show-case-container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    
+    
+}
+
+.show-case h1 {
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 8rem;
+    color: #fff;
+}
+
+.show-case-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 5rem;
+}
+
+/*  class list   */
+
+.img-class {
+    position: relative;
+    top: -115px;
+}
+
+.text-class {
+    bottom : 73px;
+}
+
+.ul-class {
+    position: relative;
+    top: -65px;
+}
+
+/*------------------------------------*/
+
+.show-case-img ul {
+    margin-right: 2rem;
+}
+
+.show-case-img ul li:first-child {
+    color: #f54538;
+}
+
+.show-case-img ul li {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.show-case-text {
+    position: absolute;
+    right: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+ .show-case-text h2 {
+     font-size: 2rem;
+     margin-top: -3rem;
+ }
+
+.show-case-text p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.features {
+    background: #323232;
+    height: 100vh;
+    position: relative;
+}
+
+.features-container {
+    width: 80%;
+    margin: auto;
+}
+
+.features-container h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 5rem;
+    position: relative;
+    top: 5rem;
+}
+
+.features-containers-2 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 13rem;
+    z-index: 1;
+}
+
+.features-box {
+    background: #fff;
+    width: 20%;
+    border-radius: 1rem;
+}
+.features-box img {
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.f-head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+.f-text {
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 1.2rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.wave {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+}
+
+/* coming- soon */
+
+.coming-soon { 
+    background: radial-gradient(#525252, #131313);
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.coming-soon-container {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.coming-soon-container img {
+    width: 100%;
+}
+.coming-soon-container p {
+    color: white;
+    font-size: 7.5rem;
+    position: absolute;
+    top:20px;
+    text-align: center;
+    width: 100%;
+    font-family:  'Lobster', cursive;
+}
+
+.img2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* ----footer-----*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0 ;
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.footer-container ul li {
+    margin-left: 35px;
+}
+
+.footer-container h3 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
